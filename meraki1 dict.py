@@ -1,0 +1,10 @@
+dic={
+    1:"NAVGURUKUL",
+    2:"hii",
+    3:{
+        'A':'WELCOME',
+        'B':'BANGLORE',
+        'C':'TRIPURA'
+    }
+}
+print(dic[3]['A'])

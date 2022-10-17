@@ -1,0 +1,24 @@
+a=[('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+v=[]
+i=0
+while i<len(a):
+    x=list(a[i])
+    j=0
+    while j<len(x):
+        v.append(x[j])
+        j=j+1
+    i=i+1
+i=0
+x={}
+while i<len(v)-1:
+    j=0
+    b=[]
+    while j<len(v)-1:
+        if v[j]==v[i]:
+            b.append(v[j+1])
+        j=j+1
+    x[v[i]]=b
+    i=i+2
+print(x)
+    
+    
